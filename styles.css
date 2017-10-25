@@ -1,0 +1,57 @@
+.game-board {
+  height: 240px;
+  width: 240px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d8d8d8;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 40px;
+  width: 40px;
+}
+
+.highlighted {
+  background-color: white;
+}
+
+.level {
+  height: 60px;
+  width: 250px;
+  margin: 50px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.moves-left {
+  color: red;
+  font-weight: bolder;
+  font-size: 26px;
+  margin: 10px;
+}
+
+.level-goal {
+  display: flex;
+  width: 200px;
+}
+
+.level-goal-items {
+  display: flex;
+  margin-top: 10px;
+}
+
+.final-loser {
+  background-image: url("images/loser.jpeg");
+}
+
+.final-winner {
+  background-image: url("images/winner.jpg");
+}
